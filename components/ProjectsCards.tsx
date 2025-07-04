@@ -11,6 +11,7 @@ interface ProjectProps {
     title: string;
     description: string;
     modalContent: {
+        thumbnail: string;
         images: string[];
         fullDescription: string;
     };
@@ -29,7 +30,7 @@ export function ProjectsCards({ project }: { project: ProjectProps }) {
                 <CardContent>
                     <div className="h-40 bg-gray-100 rounded-md flex items-center justify-center">
                         <Image
-                            src={project.modalContent.images[0]}
+                            src={project.modalContent.thumbnail}
                             alt={project.title}
                             width={200}
                             height={160}
@@ -55,7 +56,7 @@ export function ProjectsCards({ project }: { project: ProjectProps }) {
                                                 src={image}
                                                 alt={`${project.title} - Image ${index + 1}`}
                                                 fill
-                                                className="object-cover rounded-md"
+                                                className="object-contain rounded-md"
                                             />
                                         </div>
                                     </CarouselItem>

@@ -8,6 +8,7 @@ const projects = [
         title: "Ground GYM Kedoya",
         description: "Ground Private Training - Kedoya, West Jakarta",
         modalContent: {
+            thumbnail: "/assets/project-1/2.1-2.png",
             images: [
                 "/assets/project-1/2.1-2.png",
                 "/assets/project-1/2.2-1.png",
@@ -31,6 +32,7 @@ const projects = [
         title: "Episode Store",
         description: "Episode Store (Toko Oleh Oleh)  - Siliwangi Bandung",
         modalContent: {
+            thumbnail: "/assets/project-2/episode-1.jpeg",
             images: [
                 "/assets/project-2/episode-1.jpeg",
                 "/assets/project-2/episode-2.jpeg",
@@ -49,6 +51,7 @@ const projects = [
         title: "Callia Office",
         description: "Callia Office - Kelapa Gading - North Jakarta",
         modalContent: {
+            thumbnail: "/assets/project-3/callia-1.jpeg",
             images: [
                 "/assets/project-3/callia-1.jpeg",
                 "/assets/project-3/callia-2.jpeg",
@@ -69,6 +72,7 @@ const projects = [
         title: "Master Bedroom",
         description: "Master Bedroom - Michellia - Puri Botanical Residences",
         modalContent: {
+            thumbnail: "/assets/project-4/bedroom-1.jpg",
             images: [
                 "/assets/project-4/bedroom-1.jpg",
                 "/assets/project-4/bedroom-2.jpg",
@@ -83,6 +87,7 @@ const projects = [
         title: "Metro Permata Utama Residences",
         description: "Metro Permata Utama Residences",
         modalContent: {
+            thumbnail: "/assets/project-5/metro-1.jpg",
             images: [
                 "/assets/project-5/metro-1.jpg",
                 "/assets/project-5/metro-2.jpg",
@@ -96,6 +101,83 @@ const projects = [
                 "/assets/project-5/metro-10.jpg",
             ],
             fullDescription: "Metro Permata Utama Residences"
+        }
+    },
+    {
+        id: 6,
+        title: "J House",
+        description: "Interior Design Ground Floor J House - Alam Sutera",
+        modalContent: {
+            thumbnail: "/assets/project-6/JH-1.png",
+            images: [
+                "/assets/project-6/JH-1.png",
+                "/assets/project-6/JH-2.png",
+                "/assets/project-6/JH-3.png",
+                "/assets/project-6/JH-4.png",
+                "/assets/project-6/JH-5.png",
+                "/assets/project-6/JH-6.png",
+                "/assets/project-6/JH-7.png",
+                "/assets/project-6/JH-8.png",
+                "/assets/project-6/JH-9.png",
+                "/assets/project-6/JH-10.png",
+                "/assets/project-6/JH-11.png",
+                "/assets/project-6/JH-12.png",
+                "/assets/project-6/JH-13.png",
+                "/assets/project-6/JH-14.png",
+                "/assets/project-6/JH-15.png",
+                "/assets/project-6/JH-16.jpg",
+                "/assets/project-6/JH-17.jpg",
+                "/assets/project-6/JH-18.jpg",
+                "/assets/project-6/JH-19.jpg",
+                "/assets/project-6/JH-20.jpg",
+                "/assets/project-6/JH-21.jpg",
+                "/assets/project-6/JH-22.jpg",
+                "/assets/project-6/JH-23.jpg",
+                "/assets/project-6/JH-24.jpg",
+            ],
+            fullDescription: "Interior Design Ground Floor J House - Alam Sutera"
+        }
+    },
+    {
+        id: 7,
+        title: "Catriona",
+        description: "Catriona - Suvarna Sutera Residence",
+        modalContent: {
+            thumbnail: "/assets/project-7/Catriona.jpg",
+            images: [
+                "/assets/project-7/Catriona.jpg",
+            ],
+            fullDescription: "Catriona - Suvarna Sutera Residence"
+        }
+    },
+    {
+        id: 8,
+        title: "Urban Exchange",
+        description: "Urban Exchange Fashion House",
+        modalContent: {
+            thumbnail: "/assets/project-8/UE-8.jpg",
+            images: [
+                "/assets/project-8/UE-1.jpg",
+                "/assets/project-8/UE-2.jpg",
+                "/assets/project-8/UE-3.jpg",
+                "/assets/project-8/UE-4.jpg",
+                "/assets/project-8/UE-5.jpg",
+                "/assets/project-8/UE-6.jpg",
+                "/assets/project-8/UE-7.jpg",
+                "/assets/project-8/UE-8.jpg",
+                "/assets/project-8/UE-9.jpg",
+                "/assets/project-8/UE-10.jpg",
+                "/assets/project-8/UE-11.jpg",
+                "/assets/project-8/UE-12.jpg",
+                "/assets/project-8/UE-13.jpg",
+                "/assets/project-8/UE-14.jpg",
+                "/assets/project-8/UE-15.jpg",
+                "/assets/project-8/UE-16.jpg",
+                "/assets/project-8/UE-17.jpg",
+                "/assets/project-8/UE-18.jpg",
+                "/assets/project-8/UE-19.jpg",
+            ],
+            fullDescription: "Urban Exchange is a chic design fashion house. We inovative in smart - casual styles that equips you . Our passion is to enable everyone to express their true personality through their true personallity trough their work wear with a casual twist."
         }
     },
 ];
