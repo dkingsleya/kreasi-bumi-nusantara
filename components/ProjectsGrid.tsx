@@ -106,7 +106,7 @@ const projects = [
     {
         id: 6,
         title: "J House",
-        description: "Interior Design Ground Floor J House - Alam Sutera",
+        description: "Amaryllis Alam Sutera Residences",
         modalContent: {
             thumbnail: "/assets/project-6/JH-1.png",
             images: [
@@ -135,7 +135,7 @@ const projects = [
                 "/assets/project-6/JH-23.jpg",
                 "/assets/project-6/JH-24.jpg",
             ],
-            fullDescription: "Interior Design Ground Floor J House - Alam Sutera"
+            fullDescription: "Interior Design Ground Floor J House - Amaryllis - Alam Sutera Residences"
         }
     },
     {
