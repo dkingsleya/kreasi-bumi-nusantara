@@ -8,21 +8,21 @@ const projects = [
         title: "Ground GYM Kedoya",
         description: "Ground Private Training - Kedoya, West Jakarta",
         modalContent: {
-            thumbnail: "/assets/project-1/2.1-2.png",
+            thumbnail: "/assets/project-1/GYM4.png",
             images: [
-                "/assets/project-1/2.1-2.png",
-                "/assets/project-1/2.2-1.png",
-                "/assets/project-1/2.3-1.png",
-                "/assets/project-1/2.4-1.png",
-                "/assets/project-1/3.1.png",
-                "/assets/project-1/3.2.png",
-                "/assets/project-1/3.3.png",
-                "/assets/project-1/3.4.png",
-                "/assets/project-1/GYM1 signane nyala.png",
-                "/assets/project-1/GYM1.png",
-                "/assets/project-1/GYM2.png",
-                "/assets/project-1/GYM3.png",
                 "/assets/project-1/GYM4.png",
+                "/assets/project-1/GYM3.png",
+                "/assets/project-1/GYM2.png",
+                "/assets/project-1/GYM1.png",
+                "/assets/project-1/GYM1 signane nyala.png",
+                "/assets/project-1/3.4.png",
+                "/assets/project-1/3.3.png",
+                "/assets/project-1/3.2.png",
+                "/assets/project-1/3.1.png",
+                "/assets/project-1/2.4-1.png",
+                "/assets/project-1/2.3-1.png",
+                "/assets/project-1/2.2-1.png",
+                "/assets/project-1/2.1-2.png",
             ],
             fullDescription: "Ground Private Training - Kedoya, West Jakarta"
         }
@@ -32,7 +32,7 @@ const projects = [
         title: "Episode Store",
         description: "Episode Store (Toko Oleh Oleh)  - Siliwangi Bandung",
         modalContent: {
-            thumbnail: "/assets/project-2/episode-1.jpeg",
+            thumbnail: "/assets/project-2/episode-2.jpeg",
             images: [
                 "/assets/project-2/episode-1.jpeg",
                 "/assets/project-2/episode-2.jpeg",
@@ -51,7 +51,7 @@ const projects = [
         title: "Callia Office",
         description: "Callia Office - Kelapa Gading - North Jakarta",
         modalContent: {
-            thumbnail: "/assets/project-3/callia-1.jpeg",
+            thumbnail: "/assets/project-3/callia-6.jpeg",
             images: [
                 "/assets/project-3/callia-1.jpeg",
                 "/assets/project-3/callia-2.jpeg",
