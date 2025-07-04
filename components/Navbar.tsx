@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { Button } from "./ui/button";
 
 export function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -50,22 +49,16 @@ export function Navbar() {
                             Home
                         </Link>
                         <Link
-                            href="#projects"
-                            className="py-4 px-2 text-gray-900 font-semibold hover:text-blue-500 transition duration-300"
-                        >
-                            Projects
-                        </Link>
-                        <Link
                             href="#about"
                             className="py-4 px-2 text-gray-900 font-semibold hover:text-blue-500 transition duration-300"
                         >
                             About
                         </Link>
                         <Link
-                            href="#contact"
+                            href="#projects"
                             className="py-4 px-2 text-gray-900 font-semibold hover:text-blue-500 transition duration-300"
                         >
-                            Contact
+                            Projects
                         </Link>
                     </div>
                 </div>
@@ -81,22 +74,16 @@ export function Navbar() {
                         Home
                     </Link>
                     <Link
-                        href="#projects"
-                        className="block px-3 py-2 text-base font-medium text-gray-900 hover:text-blue-500"
-                    >
-                        Projects
-                    </Link>
-                    <Link
                         href="#about"
                         className="block px-3 py-2 text-base font-medium text-gray-900 hover:text-blue-500"
                     >
                         About
                     </Link>
                     <Link
-                        href="#contact"
+                        href="#projects"
                         className="block px-3 py-2 text-base font-medium text-gray-900 hover:text-blue-500"
                     >
-                        Contact
+                        Projects
                     </Link>
                 </div>
             </div>
