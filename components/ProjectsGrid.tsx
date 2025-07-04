@@ -177,6 +177,57 @@ const projects = [
             fullDescription: "Urban Exchange is a chic design fashion house. We inovative in smart - casual styles that equips you . Our passion is to enable everyone to express their true personality through their true personallity trough their work wear with a casual twist."
         }
     },
+    {
+        id: 9,
+        title: "Kopi Domu",
+        description: "Kopi Domu - Tanjung Duren - West Jakarta",
+        modalContent: {
+            thumbnail: "/assets/project-9/KD-1.jpg",
+            images: [
+                "/assets/project-9/KD-1.jpg",
+                "/assets/project-9/KD-2.jpg",
+                "/assets/project-9/KD-3.jpg",
+                "/assets/project-9/KD-4.jpg",
+                "/assets/project-9/KD-5.jpg",
+                "/assets/project-9/KD-6.jpg",
+                "/assets/project-9/KD-7.jpg",
+                "/assets/project-9/KD-8.jpg",
+                "/assets/project-9/KD-9.jpg",
+                "/assets/project-9/KD-10.jpg",
+                "/assets/project-9/KD-11.jpg",
+                "/assets/project-9/KD-12.jpg",
+                "/assets/project-9/KD-13.jpg",
+                "/assets/project-9/KD-14.jpg",
+                "/assets/project-9/KD-15.jpg",
+            ],
+            fullDescription: "Kopi Domu - Tanjung Duren - West Jakarta"
+        }
+    },
+    {
+        id: 10,
+        title: "Dragon Phoenix",
+        description: "Dragon Phoenix E-Commerce Office - BSD - Tangerang",
+        modalContent: {
+            thumbnail: "/assets/project-10/DP-1.jpg",
+            images: [
+                "/assets/project-10/DP-1.jpg",
+                "/assets/project-10/DP-2.jpg",
+                "/assets/project-10/DP-3.jpg",
+                "/assets/project-10/DP-4.jpg",
+                "/assets/project-10/DP-5.jpg",
+                "/assets/project-10/DP-6.jpg",
+                "/assets/project-10/DP-7.jpg",
+                "/assets/project-10/DP-8.jpg",
+                "/assets/project-10/DP-9.png",
+                "/assets/project-10/DP-10.png",
+                "/assets/project-10/DP-11.png",
+                "/assets/project-10/DP-12.jpg",
+                "/assets/project-10/DP-13.jpg",
+                "/assets/project-10/DP-14.jpg",
+            ],
+            fullDescription: "Dragon Phoenix E-Commerce Office - BSD - Tangerang"
+        }
+    },
 ];
 
 export function ProjectsGrid() {
