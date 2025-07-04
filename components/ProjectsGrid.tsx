@@ -173,9 +173,6 @@ const projects = [
                 "/assets/project-8/UE-14.jpg",
                 "/assets/project-8/UE-15.jpg",
                 "/assets/project-8/UE-16.jpg",
-                "/assets/project-8/UE-17.jpg",
-                "/assets/project-8/UE-18.jpg",
-                "/assets/project-8/UE-19.jpg",
             ],
             fullDescription: "Urban Exchange is a chic design fashion house. We inovative in smart - casual styles that equips you . Our passion is to enable everyone to express their true personality through their true personallity trough their work wear with a casual twist."
         }
