@@ -100,7 +100,7 @@ export default function Home() {
               <ul className="space-y-2">
                 <li><a href="#" className="text-gray-400 hover:text-blue-400 transition">Home</a></li>
                 <li><a href="#about" className="text-gray-400 hover:text-blue-400 transition">About</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-blue-400 transition">Portfolio</a></li>
+                <li><a href="#projects" className="text-gray-400 hover:text-blue-400 transition">Projects</a></li>
               </ul>
             </div>
           </div>

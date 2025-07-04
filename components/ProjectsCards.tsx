@@ -6,7 +6,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { useState } from "react";
 import Image from "next/image";
 
-interface Service {
+interface ProjectProps {
     id: number;
     title: string;
     description: string;
@@ -16,21 +16,21 @@ interface Service {
     };
 }
 
-export function ProjectsCards({ service }: { service: Service }) {
+export function ProjectsCards({ project }: { project: ProjectProps }) {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
         <>
             <Card className="cursor-pointer hover:shadow-lg transition-shadow" onClick={() => setIsOpen(true)}>
                 <CardHeader>
-                    <CardTitle>{service.title}</CardTitle>
-                    <CardDescription>{service.description}</CardDescription>
+                    <CardTitle>{project.title}</CardTitle>
+                    <CardDescription>{project.description}</CardDescription>
                 </CardHeader>
                 <CardContent>
                     <div className="h-40 bg-gray-100 rounded-md flex items-center justify-center">
                         <Image
-                            src={service.modalContent.images[0]}
-                            alt={service.title}
+                            src={project.modalContent.images[0]}
+                            alt={project.title}
                             width={200}
                             height={160}
                             className="object-cover h-full w-full rounded-md"
@@ -42,18 +42,18 @@ export function ProjectsCards({ service }: { service: Service }) {
             <Dialog open={isOpen} onOpenChange={setIsOpen}>
                 <DialogContent className="sm:max-w-4xl">
                     <DialogHeader>
-                        <DialogTitle>{service.title}</DialogTitle>
+                        <DialogTitle>{project.title}</DialogTitle>
                     </DialogHeader>
 
                     <div className="grid gap-4 py-4">
                         <Carousel className="w-full">
                             <CarouselContent>
-                                {service.modalContent.images.map((image, index) => (
+                                {project.modalContent.images.map((image, index) => (
                                     <CarouselItem key={index}>
                                         <div className="relative h-96">
                                             <Image
                                                 src={image}
-                                                alt={`${service.title} - Image ${index + 1}`}
+                                                alt={`${project.title} - Image ${index + 1}`}
                                                 fill
                                                 className="object-cover rounded-md"
                                             />
@@ -66,7 +66,7 @@ export function ProjectsCards({ service }: { service: Service }) {
                         </Carousel>
 
                         <p className="text-gray-700">
-                            {service.modalContent.fullDescription}
+                            {project.modalContent.fullDescription}
                         </p>
                     </div>
                 </DialogContent>

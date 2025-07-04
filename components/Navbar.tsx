@@ -50,7 +50,7 @@ export function Navbar() {
                             Home
                         </Link>
                         <Link
-                            href="#services"
+                            href="#projects"
                             className="py-4 px-2 text-gray-900 font-semibold hover:text-blue-500 transition duration-300"
                         >
                             Projects
@@ -81,10 +81,10 @@ export function Navbar() {
                         Home
                     </Link>
                     <Link
-                        href="#services"
+                        href="#projects"
                         className="block px-3 py-2 text-base font-medium text-gray-900 hover:text-blue-500"
                     >
-                        Services
+                        Projects
                     </Link>
                     <Link
                         href="#about"
