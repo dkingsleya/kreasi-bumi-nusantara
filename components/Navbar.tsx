@@ -14,7 +14,7 @@ export function Navbar() {
                         <div>
                             <Link href="#" className="flex items-center py-4 px-2">
                                 <span className="font-semibold text-gray-900 text-lg">
-                                    KREASI BUMI NUSANTARA
+                                    PT. KREASI BUMI NUSANTARA
                                 </span>
                             </Link>
                         </div>

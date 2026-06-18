@@ -228,13 +228,94 @@ const projects = [
             fullDescription: "Dragon Phoenix E-Commerce Office - BSD - Tangerang"
         }
     },
+    {
+        id: 11,
+        title: "ANWA",
+        description: "Rackquet Prive VIP Room",
+        modalContent: {
+            thumbnail: "/assets/project-11/AW-1.jpeg",
+            images: [
+                "/assets/project-11/AW-1.jpeg",
+                "/assets/project-11/AW-2.jpeg",
+                "/assets/project-11/AW-3.jpeg",
+                "/assets/project-11/AW-4.jpeg",
+                "/assets/project-11/AW-5.jpeg",
+                "/assets/project-11/AW-6.jpeg",
+                "/assets/project-11/AW-7.jpeg",
+                "/assets/project-11/AW-8.jpeg",
+                "/assets/project-11/AW-9.jpeg",
+            ],
+            fullDescription: "Scope of Work: Interior Fit Out for Rackquet Private VIP Room, including design and construction. The project involved creating a luxurious and exclusive space for VIP guests, featuring high-end materials, custom furnishings, and state-of-the-art amenities to provide an exceptional experience for visitors."
+        }
+    },
+    {
+        id: 12,
+        title: "ASTON Bintaro",
+        description: "Bunk Bed Family Room",
+        modalContent: {
+            thumbnail: "/assets/project-12/AST-1.jpeg",
+            images: [
+                "/assets/project-12/AST-1.jpeg",
+                "/assets/project-12/AST-2.jpeg",
+                "/assets/project-12/AST-3.jpeg"
+            ],
+            fullDescription: "Scope of Work: Interior Fit Out for Bunk Bed Family Room at ASTON Bintaro Hotel. The project involved designing and constructing a functional and comfortable family room featuring bunk beds, tailored to accommodate families with children. The design focused on maximizing space while ensuring a cozy and inviting atmosphere for guests."
+        }
+    },
+    {
+        id: 13,
+        title: "ANWA",
+        description: "Show Unit Flinders ANWA Residence",
+        modalContent: {
+            thumbnail: "/assets/project-13/AWR-1.jpeg",
+            images: [
+                "/assets/project-13/AWR-1.jpeg",
+                "/assets/project-13/AWR-2.jpeg",
+                "/assets/project-13/AWR-3.jpeg",
+                "/assets/project-13/AWR-4.jpeg",
+                "/assets/project-13/AWR-5.jpeg",
+                "/assets/project-13/AWR-6.jpeg",
+                "/assets/project-13/AWR-7.jpeg",
+                "/assets/project-13/AWR-8.jpeg",
+            ],
+            fullDescription: "Scope of Work: Interior Fit Out for Show Unit Flinders at ANWA Residence. The project involved designing and constructing a stylish and functional show unit to showcase the features and amenities of the ANWA Residence. The design focused on creating an inviting and modern living space that highlights the unique selling points of the property, while also providing a comfortable and aesthetically pleasing environment for potential buyers to experience."
+        }
+    },
+     {
+        id: 14,
+        title: "ANWA",
+        description: "Food Court & Receptionist ANWA Racquet Prive",
+        modalContent: {
+            thumbnail: "/assets/project-14/AWRP-1.jpeg",
+            images: [
+                "/assets/project-14/AWRP-1.jpeg",
+                "/assets/project-14/AWRP-2.jpeg",
+                "/assets/project-14/AWRP-3.jpeg",
+                "/assets/project-14/AWRP-4.jpeg",
+                "/assets/project-14/AWRP-5.jpeg",
+                "/assets/project-14/AWRP-6.jpeg",
+                "/assets/project-14/AWRP-7.jpeg",
+                "/assets/project-14/AWRP-8.jpeg",
+                "/assets/project-14/AWRP-9.jpeg",
+                "/assets/project-14/AWRP-10.jpeg",
+                "/assets/project-14/AWRP-11.jpeg",
+                "/assets/project-14/AWRP-12.jpeg",
+                "/assets/project-14/AWRP-13.jpeg",
+                "/assets/project-14/AWRP-14.mp4",
+            ],
+            fullDescription: `Scope of Work: 
+            Interior Fit Out for Food Court & Receptionist Area at ANWA Racquet Prive. The project involved designing and constructing a welcoming and functional food court and receptionist area to enhance the overall experience for visitors. The design focused on creating a modern and inviting atmosphere, utilizing high-quality materials and efficient space planning to accommodate both the food court and reception functions seamlessly.`
+        }
+    },
 ];
 
 export function ProjectsGrid() {
     return (
         <section id="projects" className="py-12 bg-gray-50">
             <div className="container mx-auto px-4">
-                <h2 className="text-3xl font-bold text-center mb-8">Our Projects</h2>
+                <h2 className="text-3xl font-medium tracking-tight text-center mb-8">
+                    Our Projects
+                </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {projects.map((project) => (
                         <ProjectsCards key={project.id} project={project} />

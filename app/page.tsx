@@ -34,9 +34,9 @@ export default function Home() {
             <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8">
               <h2 className="text-3xl font-bold mb-6">About Our Company</h2>
               <p className="text-gray-700 mb-4">
-                Kreasi Bumi Nusantara is an Interior Design and Build company established in 2020. We have successfully completed a wide range of projects, including residential, office, and commercial spaces. Our expertise covers Interior Design, Architectural renovation, and MEP (Mechanical, Electrical, and Plumbing) works.
+                PT. Kreasi Bumi Nusantara is an Interior Design and Build company established in 2020. We have successfully completed a wide range of projects, including residential, office, and commercial spaces. Our expertise covers Interior Design, Architectural renovation, and MEP (Mechanical, Electrical, and Plumbing) works.
                 <br></br>
-                Driven by creative innovation and a commitment to staying up to date with the latest interior finishing materials, we approach every project with meticulous attention to detail. We consistently offer clients thoughtful initiatives and alternative solutions to ensure the best quality, competitive pricing, and on time delivery.
+                Driven by creative innovation and a commitment to staying up to date with the latest interior finishing materials, we approach every project with meticulous attention to detail. We consistently offer clients thoughtful initiatives and alternative solutions to ensure the best quality, competitive pricing, and on time delivery.
               </p>
               <p className="text-gray-700 mb-4">
                 Our team of experts brings together diverse skills in technology, design, and business strategy to deliver comprehensive solutions that drive real results.
@@ -59,7 +59,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Company Info */}
             <div>
-              <h3 className="text-xl font-semibold mb-4">KREASI BUMI NUSANTARA</h3>
+              <h3 className="text-xl font-semibold mb-4">PT. KREASI BUMI NUSANTARA</h3>
               <p className="text-gray-400">ARCHITECTURE | INTERIOR DESIGN & BUILT</p>
             </div>
 
@@ -105,7 +105,7 @@ export default function Home() {
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>© {new Date().getFullYear()} KREASI BUMI NUSANTARA (KBN). All Rights Reserved.</p>
+            <p>© {new Date().getFullYear()} PT. KREASI BUMI NUSANTARA (KBN). All Rights Reserved.</p>
           </div>
         </div>
       </footer>
