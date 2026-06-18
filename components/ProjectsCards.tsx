@@ -169,10 +169,18 @@ export function ProjectsCards({ project }: { project: ProjectProps }) {
                                 <CarouselContent>
                                     {project.modalContent.images.map((image, index) => (
                                         <CarouselItem key={index}>
-                                            <ZoomableImage
+                                            {image.includes(".mp4") ? (
+                                                <video
+                                                    key={`video-${index}`}
+                                                    controls
+                                                    className="object-contain mx-auto rounded-xl"
+                                                >
+                                                    <source src={image} />
+                                                </video>
+                                            ) : <ZoomableImage
                                                 src={image}
                                                 alt={`${project.title} — ${index + 1}`}
-                                            />
+                                            />}
                                         </CarouselItem>
                                     ))}
                                 </CarouselContent>
