@@ -74,7 +74,7 @@ function ZoomableImage({ src, alt }: { src: string; alt: string }) {
                     transform: zoomed ? "scale(2)" : "scale(1)",
                 }}
             />
-            <span className="absolute bottom-2 right-2 text-[10px] text-white bg-black/40 px-2 py-0.5 rounded-full pointer-events-none sm:hidden">
+            <span className="absolute bottom-2 left-1/2 -translate-x-1/2 text-[10px] text-white bg-black/40 px-2 py-0.5 rounded-full pointer-events-none sm:hidden">
                 Tap to zoom
             </span>
         </div>
