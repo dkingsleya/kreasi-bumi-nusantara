@@ -281,7 +281,7 @@ const projects = [
             fullDescription: "Scope of Work: Interior Fit Out for Show Unit Flinders at ANWA Residence. The project involved designing and constructing a stylish and functional show unit to showcase the features and amenities of the ANWA Residence. The design focused on creating an inviting and modern living space that highlights the unique selling points of the property, while also providing a comfortable and aesthetically pleasing environment for potential buyers to experience."
         }
     },
-     {
+    {
         id: 14,
         title: "ANWA",
         description: "Food Court & Receptionist ANWA Racquet Prive",
@@ -305,6 +305,35 @@ const projects = [
             ],
             fullDescription: `Scope of Work: 
             Interior Fit Out for Food Court & Receptionist Area at ANWA Racquet Prive. The project involved designing and constructing a welcoming and functional food court and receptionist area to enhance the overall experience for visitors. The design focused on creating a modern and inviting atmosphere, utilizing high-quality materials and efficient space planning to accommodate both the food court and reception functions seamlessly.`
+        }
+    },
+    {
+        id: 15,
+        title: "ANWA",
+        description: "ANWA Physiotherapy Clinic",
+        modalContent: {
+            thumbnail: "/assets/project-15/AP-1.jpeg",
+            images: [
+                "/assets/project-15/AP-1.jpeg",
+                "/assets/project-15/AP-2.jpeg",
+                "/assets/project-15/AP-3.jpeg",
+                "/assets/project-15/AP-4.jpeg",
+                "/assets/project-15/AP-5.jpeg",
+                "/assets/project-15/AP-6.jpeg",
+                "/assets/project-15/AP-7.jpeg",
+                "/assets/project-15/AP-8.jpeg",
+                "/assets/project-15/AP-9.jpeg",
+                "/assets/project-15/AP-10.jpeg",
+                "/assets/project-15/AP-11.jpeg",
+                "/assets/project-15/AP-12.jpeg",
+                "/assets/project-15/AP-13.jpeg",
+                "/assets/project-15/AP-14.jpeg",
+                "/assets/project-15/AP-15.jpeg",
+                "/assets/project-15/AP-16.jpeg",
+                "/assets/project-15/AP-17.jpeg",
+            ],
+            fullDescription: `Scope of Work: 
+            Interior Fit Out for ANWA Physiotherapy Clinic. The project involved designing and constructing a modern and functional clinic space to provide a comfortable environment for patients and staff. The design focused on creating a clean and welcoming atmosphere, utilizing high-quality materials and efficient space planning to accommodate the various functions of the physiotherapy clinic.`
         }
     },
 ];
